@@ -32,8 +32,22 @@ header {
     height: 550px;
 }
 
+.jumbo-section-2 {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-position: top;    
+}
+
 .img-width-jumbo {
     width: 250px;
+}
+
+.img-width-jumbo-2 {
+    width: 230px;
+}
+
+.img-psplus-width {
+    width: 280px;
 }
 
 .btn-bg-1 {
@@ -46,4 +60,16 @@ header {
 
 .color-text-1 {
     color: #0977cf;
+}
+
+.bg-color-1 {
+    background-color: #1f1f1f;
+}
+
+.bg-color-2 {
+    background-color: #bebcbb;
+}
+
+.font-size-1 {
+    font-size: 2.3rem;
 }
