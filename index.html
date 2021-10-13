@@ -11,8 +11,7 @@
 </head>
 <body>
     <!-- header -->
-    <header>
-
+    <header class="fixed-top">
         <!-- logo sony section -->
         <section class="bg-dark">
             <div class="container-fluid text-end py-2">
@@ -22,7 +21,7 @@
 
         <!-- navbar section -->
         <section>
-            <nav class="navbar navbar-expand-lg navbar-light text-white">
+            <nav class="navbar navbar-expand-xl navbar-light bg-light">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#">
                       <img src="img/play_logo.svg" width="45" height="45">
@@ -32,39 +31,35 @@
                   </button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Giochi
-                        </a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Hardware
-                        </a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                         Servizi
-                        </a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Novità
-                        </a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Fai acquisti
-                        </a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Supporto
-                        </a>
-                      </li>
-                    </ul>
-                    <form class="d-flex">
-                      <button class="btn btn-dark" type="submit">Accedi</button>
+                        <li class="nav-item d-flex pe-3">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <img src="./img/chevron-down-solid.svg" alt="" class="width-icon">
+                          </li>
+                          <li class="nav-item d-flex pe-3">
+                            <a class="nav-link active" aria-current="page" href="#">Hardware</a>
+                            <img src="./img/chevron-down-solid.svg" alt="" class="width-icon">
+                          </li>
+                          <li class="nav-item d-flex pe-3">
+                            <a class="nav-link active" aria-current="page" href="#">Servizi</a>
+                            <img src="./img/chevron-down-solid.svg" alt="" class="width-icon">
+                          </li>
+                          <li class="nav-item d-flex pe-3">
+                            <a class="nav-link active" aria-current="page" href="#">Novità</a>
+                            <img src="./img/chevron-down-solid.svg" alt="" class="width-icon">
+                          </li>
+                          <li class="nav-item d-flex pe-3">
+                            <a class="nav-link active" aria-current="page" href="#">Fai Acquisti</a>
+                            <img src="./img/chevron-down-solid.svg" alt="" class="width-icon">
+                          </li>
+                          <li class="nav-item d-flex pe-3">
+                            <a class="nav-link active" aria-current="page" href="#">Supporto</a>
+                            <img src="./img/chevron-down-solid.svg" alt="" class="width-icon">
+                          </li>
+                        </ul>
+                    <form class="d-flex align-items-center">
+                    <a class="nav-link active text-dark" aria-current="page" href="#">My PlayStation</a>
+                      <button class="btn btn-dark rounded-pill mx-5" type="submit">Accedi</button>
+                      <img src="./img/lens.svg" alt="" class="width-icon-2">
                     </form>
                   </div>
                 </div>
@@ -73,7 +68,18 @@
     </header>
 
     <!-- main -->
-
+    <section class="jumbo-section ms-mt-110 d-flex align-items-end pb-5">
+        <div class="container container-sm container-lg">
+            <div class="row">
+                <div class="col-xs-12 col-lg-4 text-white">
+                    <img src="./img/returnal-hero-banner-logo.png" alt="" class="img-width-jumbo">
+                    <h2 class="fs-1 pt-3">Rompi il cerchio</h2>
+                    <p class="pt-3 pb-3">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascentifico, disponibile in esclusiva su PS5</p>
+                    <button class="btn btn-dark rounded-pill btn-bg-1" type="submit">Acquista ora</button>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- footer -->
 </body>
 </html>

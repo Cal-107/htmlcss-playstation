@@ -1,12 +1,41 @@
+/* utilities */
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
+}
+
+.ms-mt-110 {
+    margin-top: 110px;
 }
 
 /* header*/
 header {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
 .logo-1-width {
     width: 75px;
+}
+
+.width-icon {
+    width: 10px;
+}
+
+.width-icon-2 {
+    width: 20px;
+}
+
+/* main */
+.jumbo-section {
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: top;    
+    height: 550px;
+}
+
+.img-width-jumbo {
+    width: 250px;
+}
+
+.btn-bg-1 {
+    background-color: #cd3d0f;
 }
