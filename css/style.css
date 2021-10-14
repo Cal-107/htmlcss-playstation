@@ -43,6 +43,10 @@ body {
     font-size: 2.5rem;
 }
 
+.font-size-3 {
+    font-size: 0.9rem;
+}
+
 /* header*/
 header {
     font-family: Helvetica, sans-serif;
@@ -65,7 +69,7 @@ header {
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: top;    
-    height: 550px;
+    height: 650px;
 }
 
 .jumbo-section-2 {
@@ -85,15 +89,16 @@ header {
 .img-width {
     width: 60%;
 }
+
 .max-width {
     max-width: 568px;
 }
 
 /* footer */
-.img-size {
-    width: 8rem;
+.logo-2-width {
+    width: 90px;
 }
 
-.text-size {
-    font-size: 0.9rem;
+.img-size {
+    width: 8rem;
 }
