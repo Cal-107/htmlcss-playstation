@@ -27,6 +27,14 @@ body {
     background-color: #bebcbb;
 }
 
+.bg-color-3 {
+    background-color: #161c3b;
+}
+
+.bg-color-4 {
+    background-color: #00439c;
+}
+
 .font-size-1 {
     font-size: 2.3rem;
 }
@@ -74,6 +82,18 @@ header {
     width: 230px;
 }
 
-.img-psplus-width {
-    width: 280px;
+.img-width {
+    width: 60%;
+}
+.max-width {
+    max-width: 568px;
+}
+
+/* footer */
+.img-size {
+    width: 8rem;
+}
+
+.text-size {
+    font-size: 0.9rem;
 }
