@@ -7,6 +7,30 @@ body {
     margin-top: 110px;
 }
 
+.btn-bg-1 {
+    background-color: #cd3d0f;
+}
+
+.br-radius {
+    border-radius: 20px;
+}
+
+.color-text-1 {
+    color: #0977cf;
+}
+
+.bg-color-1 {
+    background-color: #1f1f1f;
+}
+
+.bg-color-2 {
+    background-color: #bebcbb;
+}
+
+.font-size-1 {
+    font-size: 2.3rem;
+}
+
 /* header*/
 header {
     font-family: Helvetica, sans-serif;
@@ -48,28 +72,4 @@ header {
 
 .img-psplus-width {
     width: 280px;
-}
-
-.btn-bg-1 {
-    background-color: #cd3d0f;
-}
-
-.br-radius {
-    border-radius: 20px;
-}
-
-.color-text-1 {
-    color: #0977cf;
-}
-
-.bg-color-1 {
-    background-color: #1f1f1f;
-}
-
-.bg-color-2 {
-    background-color: #bebcbb;
-}
-
-.font-size-1 {
-    font-size: 2.3rem;
 }
