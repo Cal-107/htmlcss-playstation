@@ -115,3 +115,65 @@ header {
     transition: box-shadow .5s ease,
                 opacity .5s ease;
 }
+
+.card-section-1 img,
+.card-section-3 img {
+    transition: transform .4s ease,
+                box-shadow .4s ease,
+                outline .4s ease .1s,
+                outline-offset .4s ease .1s;
+}
+
+.card-section-1 img:hover,
+.card-section-3 img:hover {
+    cursor: pointer;
+    outline: solid 3px #0977cf;
+    outline-offset: 4px;
+    transform: translateY(-8px);
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 20px 20px;
+}
+
+.btn,
+.btn.bg-light,
+.ps-now-section .btn.bg-light {
+    transition: outline-offset .3s ease,
+                outline .4s ease .1s;
+}
+
+.btn:hover {
+    outline: solid 2px #fff;
+    outline-offset: -5px;
+}
+
+.btn.bg-light:hover {
+    outline: solid 2px #bebcbb;
+}
+
+.ps-now-section .btn.bg-light:hover {
+    outline-color: #161c3b;
+}
+
+.discount-section img,
+.social-media-section img {
+    transition: transform .4s ease,
+                border-radius .4s ease,
+                box-shadow .4s ease,
+                outline .4s ease .1s,
+                outline-offset .4s ease .1s;
+}
+
+.discount-section img:hover {
+    cursor: pointer;
+    outline: solid 3px #161c3b;
+    outline-offset: 4px;
+    transform: translateY(-8px);
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 20px 20px;
+    border-radius: 50px;
+}
+
+.social-media-section img:hover {
+    cursor: pointer;
+    transform: translateY(-8px);
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 20px 20px;
+    border-radius: 20px;
+}
