@@ -108,12 +108,15 @@ header {
 }
 
 /* hover */
+.card-section-2 .row .col-4 {
+    transition: box-shadow .5s ease,
+                opacity .5s ease;
+}
+
 .card-section-2 .row .col-4:hover {
     opacity: 100%;
     box-shadow: 0px 2px 0px #0977cf;
     cursor: pointer;
-    transition: box-shadow .5s ease,
-                opacity .5s ease;
 }
 
 .card-section-1 img,
